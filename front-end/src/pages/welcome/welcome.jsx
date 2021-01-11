@@ -26,7 +26,6 @@ function Welcome() {
             <img src={iconGit} alt="logoImage" />
             <h3>GitHub</h3>
           </button>
-
           <button>
             <img src={iconLinkedin} alt="logoImage" />
             <h3>Linkedin</h3>

@@ -42,7 +42,7 @@
 }
 
 .boxContainer {
-  width: 35%;
+  width: 34%;
   margin-top: 1%;
 }
 
@@ -70,3 +70,151 @@
 .box button h3 {
   margin-top: 1%;
 }
+
+/* Responsividade */
+
+@media only screen and (max-device-width: 900px) {
+  .welcomeContainer h1 {
+    color: white;
+    font-size: 36pt;
+    margin-bottom: 1px;
+  }
+
+  .welcomeContainer h3 {
+    font-size: 10pt;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-weight: 500;
+  }
+
+  .boxName {
+    margin-top: 5px;
+  }
+
+  .boxName img {
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    border: 5px solid #01d649;
+    margin-bottom: 3px;
+    margin-top: 1%;
+  }
+
+  .boxName h3 {
+    color: white;
+    font-size: 18pt;
+  }
+
+  .boxName h4 {
+    font-size: 14pt;
+    font-weight: 500;
+  }
+
+  .boxContainer {
+    width: 48%;
+    margin-top: 1%;
+  }
+
+  .box {
+    display: flex;
+  }
+
+  .box button {
+    outline: none;
+    width: 200px;
+    height: 100px;
+    border-radius: 8px;
+    border: none;
+    padding: 8px 10px 8px 10px;
+    margin-top: 3%;
+    color: #01d649;
+    background-color: #323252;
+    transition: 200ms;
+  }
+  .box button:hover {
+    cursor: pointer;
+    background-color: #3c3c63;
+  }
+
+  .box button h3 {
+    margin-top: 1%;
+  }
+}
+
+@media only screen and (max-device-width: 411px) {
+  .welcomeContainer {
+    margin-top: 15%;
+  }
+
+  .welcomeContainer h1 {
+    color: white;
+    font-size: 24pt;
+    margin-bottom: 1px;
+  }
+
+  .welcomeContainer h3 {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-weight: 500;
+    font-size: 8pt;
+  }
+
+  .boxName {
+    margin-top: 5px;
+  }
+
+  .boxName img {
+    width: 100px;
+    height: 100px;
+    border-radius: 150px;
+    border: 3px solid #01d649;
+    margin-bottom: 3px;
+    margin-top: 2%;
+  }
+
+  .boxName h3 {
+    color: white;
+    font-size: 16pt;
+  }
+
+  .boxName h4 {
+    font-size: 13pt;
+    font-weight: 500;
+  }
+
+  .boxContainer {
+    width: 90%;
+    margin-top: 1%;
+  }
+
+  .box {
+    display: flex;
+  }
+
+  .box button {
+    outline: none;
+    width: 160px;
+    height: 100px;
+    border-radius: 8px;
+    border: none;
+    padding: 8px 10px 8px 10px;
+    margin-top: 3%;
+    color: #01d649;
+    background-color: #323252;
+    transition: 200ms;
+  }
+  .box button:hover {
+    cursor: pointer;
+    background-color: #3c3c63;
+  }
+
+  .box button img{
+    width: 25%;
+  }
+
+  .box button h3 {
+    margin-top: 1%;
+  }
+}
+
+
