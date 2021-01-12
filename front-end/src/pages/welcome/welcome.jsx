@@ -1,3 +1,6 @@
+// Importando dependências
+import { Link } from "react-router-dom";
+
 //  Importando estilo da página
 import "./welcome.css";
 
@@ -37,11 +40,13 @@ function Welcome() {
             <img src={iconInstagram} alt="logoImage" />
             <h3>Instagram</h3>
           </button>
-
+          
+          <Link to="/experience">
           <button>
             <img src={iconPortifolio} alt="logoImage" />
             <h3>Portifólio</h3>
           </button>
+          </Link>
         </section>
       </section>
     </div>
